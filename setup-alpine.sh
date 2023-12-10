@@ -1,5 +1,5 @@
 apk update
-apk add cmake git alpine-sdk hwloc libuv-dev
+apk add git make cmake libstdc++ gcc g++ libuv-dev openssl-dev hwloc-dev
 git clone https://www.github.com/xmrig/xmrig
 cd xmrig
 mkdir build && cd build
