@@ -1,5 +1,5 @@
 apk update
-apk add cmake git build-essential libuv1-dev libssl-dev libhwloc-dev
+apk add cmake git alpine-sdk
 git clone https://www.github.com/xmrig/xmrig
 cd xmrig
 mkdir build && cd build
